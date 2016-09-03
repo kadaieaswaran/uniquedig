@@ -7,7 +7,7 @@ public class FindUniqueDig {
 		System.out.println("Enter the num of input count:");
 		int n=sc.nextInt(),i=0,j;
 		int[] num=new int[n];
-		if((n%2) != 0&& n != 0)
+		if((n%2) != 0&& n > 0)
 		{
 		for(i=0;i<n;i++)
 			num[i]=sc.nextInt();
